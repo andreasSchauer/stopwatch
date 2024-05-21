@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8>
+    <title>Stopwatch</title>
+    <link rel="stylesheet" src="styles.css">
+  </head>
+  <body>
+    <div id="outer-container">
+      <div id="inner-container">
+        <h1>Stopwatch</h1>
+        <div id="button-container">
+          <button id="start-button">Start</button>
+          <button id="checkpoint-button">Checkpoint</button>
+          <button id="stop-button">Stop</button>
+          <button id="reset-button">Reset</button>
+        </div>
+        <p id="stopwatch">00:00:00.0</p>
+        <div id="checkpoints-container">
+          <h2>Checkpoints:</h2>
+          <ol id="checkpoints-list">
+            <p id="cp-description">No checkpoints set</p>
+          </ol>
+        </div>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
