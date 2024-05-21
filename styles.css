@@ -1,0 +1,82 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 18px;
+  font-family: sans-serif;
+}
+
+body {
+  text-align: center;
+  padding: 3rem 4rem;
+}
+
+#outer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 700px;
+  margin: 0 auto;
+
+}
+
+h1 {
+  margin-bottom: 2.5rem;
+}
+
+#button-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-bottom: 1.5rem;
+  gap: 20px;
+}
+
+button {
+  font-size: 1rem;
+  padding: 15px;
+}
+
+#stopwatch {
+  font-size: 4rem;
+  margin-bottom: 2rem;
+}
+
+h2 {
+  margin-bottom: 1.5rem;
+}
+
+#checkpoints-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#checkpoints-list {
+  font-size: 1.2rem;
+  list-style-type: none;
+  border: 2px solid black;
+  min-width: 350px;
+  padding: 1.5rem 4rem;
+}
+
+li {
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.list-entry-num {
+  font-weight: 700;
+}
+
+#cp-description {
+  font-size: 1.1rem;
+}
